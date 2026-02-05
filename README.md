@@ -147,4 +147,4 @@ jdbc:ucanaccess://./students.accdb
 ✔ Documentation provided (this README)
 
 # Author
-Priscilla Akello (apriscilla@vu.sc.ug)
+Lwese Sudaisi (lwesesudaisi@vu.sc.ug)
