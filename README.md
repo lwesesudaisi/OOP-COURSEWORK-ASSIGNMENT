@@ -1,26 +1,65 @@
-# OOP Coursework Assignment
+# Object-Oriented Programming Coursework
+### Java Console Applications
 
-## Overview
-This repository contains Java programs for the OOP coursework assignment.
+This repository contains solutions for the Object-Oriented Programming (OOP) coursework.
 
-## Project Files
-- `AuctionApp.java`
-- `GradingApp.java`
-- `StudentRegistrationApp.java`
-- `firstName.java`
-- `test.js`
+The project includes:
 
-## How to Run (Java)
-Compile a file:
+• Console-based Java applications
+• A simple JavaScript file used for testing
+
+# 📁 Project Structure
+```
+.
+├── AuctionApp.java
+├── GradingApp.java
+├── StudentRegistrationApp.java
+├── firstName.java
+├── test.js
+└── README.md
+```
+
+# ✅ Question 1 – Console Applications
+
+## Part A – Grading Application
+Main class: GradingApp.java
+
+Run:
+```
+javac GradingApp.java
+java GradingApp
+```
+
+## Part B – Auction Application
+Main class: AuctionApp.java
+
+Run:
 ```
 javac AuctionApp.java
-```
-Run a compiled class:
-```
 java AuctionApp
 ```
 
-Repeat for other Java files as needed.
+# ✅ Question 2 – Application
 
-## Author
+## Student Registration Application
+Main class: StudentRegistrationApp.java
+
+Run:
+```
+javac StudentRegistrationApp.java
+java StudentRegistrationApp
+```
+
+# ⚙ Requirements
+• JDK 17 (or any compatible JDK)
+
+# 📌 Notes
+• Each system runs independently via its own main method
+• Compile and run each Java file separately as shown above
+
+# 📋 Submission Checklist Alignment
+✔ Java source files provided via GitHub
+✔ Documentation provided in this README
+
+# Author
 Priscilla Akello (apriscilla@vu.sc.ug)
