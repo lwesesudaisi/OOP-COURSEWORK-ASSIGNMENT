@@ -1,0 +1,14 @@
+# Build artifacts
+*.class
+build/
+dist/
+
+# Runtime data
+*.csv
+*.accdb
+
+# NetBeans
+nbproject/private/
+
+# OS files
+.DS_Store

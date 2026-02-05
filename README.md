@@ -11,13 +11,24 @@ The project includes:
 
 # 📁 Project Structure
 ```
-.
-├── AuctionApp.java
-├── GradingApp.java
-├── StudentRegistrationApp.java
-├── firstName.java
-├── test.js
-└── README.md
+src/
+└── oop/
+	└── java/
+		├── GradingApp.java
+		├── AuctionApp.java
+		├── StudentRegistrationApp.java
+		└── firstName.java
+
+databases/
+└── students_template.accdb
+
+nbproject/
+
+build.xml
+manifest.mf
+.gitignore
+test.js
+README.md
 ```
 
 # ✅ Question 1 – Console Applications
@@ -34,8 +45,8 @@ Features:
 
 Run:
 ```
-javac GradingApp.java
-java GradingApp
+javac src/oop/java/GradingApp.java
+java -cp src/oop/java GradingApp
 ```
 
 ## Part B – Auction System
@@ -50,8 +61,8 @@ Features:
 
 Run:
 ```
-javac AuctionApp.java
-java AuctionApp
+javac src/oop/java/AuctionApp.java
+java -cp src/oop/java AuctionApp
 ```
 
 # ✅ Question 2 – Desktop Application (JavaFX)
@@ -68,10 +79,10 @@ Features:
 • Generates student ID
 • Saves to CSV
 
-Run:
+Run (IDE recommended for JavaFX):
 ```
-javac StudentRegistrationApp.java
-java StudentRegistrationApp
+javac src/oop/java/StudentRegistrationApp.java
+java -cp src/oop/java StudentRegistrationApp
 ```
 
 # ⚙ Requirements
